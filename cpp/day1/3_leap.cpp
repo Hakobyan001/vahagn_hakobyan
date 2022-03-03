@@ -3,13 +3,12 @@ using namespace std;
 
 int main()
 {
-int year;
-cout << "Print the starting year \n";
-cin >> year;
-int n = 0;
+int year = 2022;
+int n = 1;
 while (n < 20) {
+if (year % 4==0){
 cout << year << endl;
-year = year+4;
+}year = year + 1;
 n++;
 }return 0;
 }
