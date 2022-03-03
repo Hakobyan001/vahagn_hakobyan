@@ -10,12 +10,9 @@ int main(){
                 if (num > n) {
                 cout << "Little bit more \n" ;
                 }else if (num < n){
-                cout << "A little less \n" ;
-                }else if (num = n){
-                cout << "Oooh Finnaly \n" ;
+                cout << "A little less \n" ;               
                 }cin >> n;
-                }while (num != n);
-                return 0;
-}
-
+		}while (num != n);
+                cout << "Finally \n" ;
+		return 0;}
 
