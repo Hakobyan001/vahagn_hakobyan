@@ -42,6 +42,8 @@ switch (month) {
   case 12:
     cout << "December : 31 \n";
     break;
+  default:
+    cout << "Error print the number of months (Until 12).Try again. \n";
 	}
 return 0;
 } 
