@@ -12,7 +12,12 @@ cout << "Okay,now print the function/operator that will be done.( +, -, *, /\n";
 cin >> function;
 cout << "Good, and the finally print the second number. \n";
 cin >> num2;
-cout << "\nAnd the Result is \n";
+cout << "\n And the Result is \n";
+if ((num2 == 0) && (function == '/'))
+{
+cout << "Error. Try again. It not a Mathematic function. \n";
+}
+else {
     switch (function) {
 	case '+': 
  	  cout << num1 + num2 << endl;
@@ -30,5 +35,6 @@ cout << "\nAnd the Result is \n";
 	  cout << "Hmmm...It's Not an Operator/Number. Error. Try again. \n";	  
 	  break;
 	}
+ }
 return 0;
 }
