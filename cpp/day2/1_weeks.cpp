@@ -27,6 +27,8 @@ cin >> day;
             case 7:
 		cout << "Sunday \n";	
 	 	break;	
+	    default:
+		cout << "Error. Print the number of the weeks (Until 7).Try again. \n";
 	}
 return 0;
 }
