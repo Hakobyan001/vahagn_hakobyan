@@ -2,43 +2,51 @@
 using namespace std;
 
 int main() {
-int ch;
+char ch;
 cout << "Print a character of alphabet \n";
 cin >> ch;
+if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+{   
     switch (ch)
     {
         case 'a': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'i': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'o': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'u': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'A': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'I': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'O': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'U': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'e': 
-            cout <<("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         case 'E': 
-            cout << ("Vowel \n");
+            cout << ch << (" is Vowel \n");
             break;
         default: 
-            cout << ("Consonant \n");
+            cout << ch << (" is Consonant \n");
+	}
     }
+    else {
+	cout << "Error. Print a character of alphabet \n";		
+    }	
     return 0;
-}
+    }
+
+
