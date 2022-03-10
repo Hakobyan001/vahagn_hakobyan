@@ -14,7 +14,7 @@ int main(){
 
 	for (i = 0; i <= length; i++) {
 		if (arr[i] >= 'a' && arr[i] <= 'z') {
-			arr[i] = arr[i] + ('a' - 'A'); 
+			arr[i] = arr[i] + ('A' - 'a'); 
 		}
 	}
     
