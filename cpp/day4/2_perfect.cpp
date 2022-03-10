@@ -1,23 +1,26 @@
 #include <iostream>
 using namespace std;
-
-void perfect (int ch){
-	int arr[] = { 6,28,496,8128,33550336 };
+	
+void perfect(int num) {
 	int i;
-	for (i = 0; i <=5; i++){
-	if (ch == arr[i] ){
-		cout << ch << "  is a perfect number \n";
-		break;
+	int sum = 0;
+	for (i=1; i < num; i++) {
+		if (num % i == 0) {
+			sum += i;
 		}
 	}
-	if (ch != arr[i]){
-		cout << ch << "  it isn't a perfect number \n";
+	if (num == sum) {
+		cout << "Yes it's a perfect" << endl;
+	}
+	else
+	{ 
+	 	cout << "Nope. Try again." << endl;
 	}
 }
-int main(){
-	cout << "Input a perfect number \n";
+int main (){
 	int n;
+	cout << "Print the number " << endl;
 	cin >> n;
-	perfect (n);
-	return 0;	
+	perfect(n);
+	return 0;
 }
