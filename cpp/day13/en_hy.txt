@@ -1,0 +1,10 @@
+hello->բա րև
+home->տ ուն
+student->ուսա նող
+job->ա շխ ա տ ա նք
+program->ծրա գիր
+process->պ րոցես
+yes->ա ո
+no->ոչ
+something->բա ն
+nothing->ոչինչ
