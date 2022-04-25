@@ -1,0 +1,59 @@
+*{
+    background-color: black;
+}
+.item1{
+height: 180px;
+width: 500px;
+margin-top: 200px;
+margin-left: 300px;
+position: relative;
+animation: mymove 8s infinite;
+}
+
+
+@keyframes mymove { 
+ 0% {background-color:white}
+ 25% {background-color: rgb(89, 89, 214);}
+ 50% {background-color:blue} 
+ 75% {background-color: rgb(28, 28, 153);}
+ 100% {background-color:white} }
+
+ .item2{
+     height: 180px;
+     width: 500px;
+     background-color: rgb(32, 109, 32);
+     margin-left: 300px;
+     position: relative;
+ }
+ .circle{
+        width: 70px;
+        height: 70px;
+        animation: sun 8s infinite;
+        border-radius: 50%;
+        position: relative;
+        margin-top: -250px;
+        margin-left: 300px;
+      }
+.circle2{
+        width: 70px;
+        height: 70px;
+        animation: sun2 8s infinite;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 301px;
+      }
+ @keyframes sun { 
+    0% {background-color:rgb(255, 255, 255);top: 0px;left: 0px;}
+    25% {background-color: rgb(190, 184, 158);}
+    50% {background-color:rgb(224, 226, 97);top: 180px;left: 214px;} 
+    75% {background-color: rgb(224, 226, 97);}
+    85% {background-color: rgb(69, 155, 69);}
+    100% {background-color:rgb(32, 109, 32);;top:0px;left:430px} }
+@keyframes sun2 { 
+        0% {background-color:rgb(32, 109, 32);top: 0px;left: 0px;}
+        25% {background-color: rgb(69, 155, 69);}
+        50% {background-color:rgb(224, 226, 97);top: -180px;left: 214px;} 
+        75% {background-color: rgb(224, 226, 97);}
+        85% {background-color: rgb(255, 255, 255);}
+        100% {background-color:rgb(255, 255, 255);top:0px;left:430px} }
